@@ -14,9 +14,9 @@ A tool to help you join Zoom meetings quickly without typing the room id/passcod
 
   1. Install [Autoit](https://www.autoitscript.com/site/)
   2. Change win-zoom-speed-dial.au3 to add your Zoom rooms information. Look for RoomNameList/RoomIdList/PasscodeList.
-  3. Start the Zoom application and run the script. 
+  3. Start the Zoom application and run the script win-zoom-speed-dial.au3. 
   
 - macOS
 
   1. Change mac-zoom-speed-dial.scpt to add your Zoom rooms information. Look for RoomNameList/RoomIdList/PasscodeList.
-  2. Start the Zoom application and run the script. 
+  2. Start the Zoom application and run the script mac-zoom-speed-dial.scpt. 

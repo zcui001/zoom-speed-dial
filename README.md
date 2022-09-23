@@ -1,7 +1,7 @@
 # zoom-speed-dial
 
 ## What is this?
-A tool to help you join Zoom meetings quickly without typing the room id/passcode.
+A tool to help you join Zoom meetings quickly without typing the room id/passcode each time.
 
 ## How does it work?
 1. You first define a list of Zoom rooms with Room names/id/passcode in the script.

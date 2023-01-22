@@ -4,8 +4,8 @@
 A tool to help you join Zoom meetings quickly without typing the room id/passcode each time.
 
 ## How does it work?
-1. You first define a list of Zoom rooms with Room names/id/passcode in the script.
-2. Then You start the Zoom application, and run the script. On Windows/macOS, it will show a dialog to you to select the room name to join. On Linux, you run the script with the room name to join as the input argument.
+1. You first define a list of Zoom rooms with room names/id/passcode in the script. Room names should be easy to remember.
+2. Then You start the Zoom application, and run the script. On Windows/macOS, it will show a dialog to let you select the room name to join. On Linux, you run the script with the room name to join as the input argument.
 3. Then it will send keyboard/mouse events to the Zoom window to join the Zoom room. 
 
 ## How to use it?
@@ -23,6 +23,6 @@ A tool to help you join Zoom meetings quickly without typing the room id/passcod
 
 - Linux
 
-  1. Install xdotool.
+  1. Install xdotool. (e.g. sudo apt install xdotool)
   2. Edit linux-zoom-speed-dial.sh to replace variables ZoomId/ZoomPass with your own Zoom rooms information.
   3. Start the Zoom application and run the script linux-zoom-speed-dial.sh with the room name to join as the input argument. 

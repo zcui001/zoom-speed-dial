@@ -14,18 +14,18 @@ A tool to help you join Zoom meetings quickly without typing the room id/passcod
 
   1. Install [Autoit](https://www.autoitscript.com/site/).
   2. Edit win-zoom-speed-dial.au3 to replace variables RoomNameList/RoomIdList/PasscodeList with your own Zoom rooms information.
-  3. Start the Zoom application and run the script win-zoom-speed-dial.au3. 
+  3. Start the Zoom application and run the script win-zoom-speed-dial.au3. You may create a shortcut to run thsi script.
   
 - macOS
 
   1. Edit mac-zoom-speed-dial.scpt to replace variables RoomNameList/RoomIdList/PasscodeList with your own Zoom rooms information.
-  2. Start the Zoom application and run the script mac-zoom-speed-dial.scpt. 
+  2. Start the Zoom application and run the script mac-zoom-speed-dial.scpt. You may create a shortcut to run thsi script.
 
 - Linux
 
   1. Install xdotool. (e.g. sudo apt install xdotool)
   2. Edit linux-zoom-speed-dial.sh to replace variables ZoomId/ZoomPass with your own Zoom rooms information.
-  3. Start the Zoom application and run the script linux-zoom-speed-dial.sh with the room name to join as the input argument. 
+  3. Start the Zoom application and run the script linux-zoom-speed-dial.sh with the room name to join as the input argument. You may create a shortcut to run thsi script.
 
 ## Troubleshooting
 1. This tool relies on the Zoom window title/class used on your OS. Replace with your own window title/class if needed.

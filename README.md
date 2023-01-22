@@ -26,3 +26,7 @@ A tool to help you join Zoom meetings quickly without typing the room id/passcod
   1. Install xdotool. (e.g. sudo apt install xdotool)
   2. Edit linux-zoom-speed-dial.sh to replace variables ZoomId/ZoomPass with your own Zoom rooms information.
   3. Start the Zoom application and run the script linux-zoom-speed-dial.sh with the room name to join as the input argument. 
+
+## Troubleshooting
+1. This tool relies on the Zoom window title/class used on your OS. Replace with your own window title/class if it's not same with the ones in the script.
+2. For Windows/Linux, it needs click the mouse at the right position of some buttons. Ajdust the positions if they don't work on your screen.  
